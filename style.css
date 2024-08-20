@@ -1,0 +1,178 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic', sans-serif;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(25, 24, 24);
+}
+
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 15px 5%; 
+    background-color: rgb(25, 24, 24); 
+}
+
+.header img {
+    margin-top: 30px;
+    margin-left: 30px; 
+    padding-left: 25px;
+    padding-right: 75px;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%; 
+}
+
+nav ul {
+    display: flex; 
+    gap: 20px; 
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px; 
+    transition: color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    color: rgb(255, 98, 62); 
+}
+
+span{
+    color: rgb(255, 98, 62);
+}
+
+.btn{
+    background-color: rgb(255, 98, 62);
+    color: white;
+    text-decoration: none;
+    border: -100px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    transition: transform .4s;
+
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.me {
+    text-align: left; 
+    color: white; 
+    margin-top: 100px;
+    margin-left: 125px;
+}
+
+.me h3 {
+    font-size: 70px; 
+    color: rgba(109, 102, 102, 0.293); 
+    margin-left: 8px;
+    font-family: 'Arial', sans-serif;
+}
+
+.me h1 {
+    font-size: 100px; 
+    font-weight: bold; 
+    color: white; 
+    font-family: 'Arial Black', Arial, sans-serif;
+    margin-top: -20px;
+    line-height: 1;
+    margin-bottom: 40px;
+}
+
+
+.me h1 span {
+    color: rgb(255, 98, 62); 
+    font-family: 'Arial Black', Arial, sans-serif;
+}
+
+.about{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(15, 14, 14);
+
+}
+
+.about h2 {
+    text-align: center;
+    margin-top: 120px; 
+    font-size: 130px;
+    color: rgba(67, 57, 57, 0.293); 
+    padding-top: 3px;
+    z-index: 1; /* Positioned behind */
+    transform: translateY(10px) translateX(-10px); /* Adjust shadow offset as needed */
+}
+
+
+
+.about h3{
+    margin-top: -92px;
+    text-align: center;
+    font-size: 52px; /* Front text size */
+    color: rgb(255, 98, 62);
+    z-index: 2; /* Positioned in front */
+}
+
+.yeye {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    padding-left: 300px; /* Adjust padding as needed */
+    padding-right: 30px; /* Adjust padding as needed */
+    gap: 20px; /* Space between image and text */
+}
+
+.yeye img {
+    
+    padding-top: 90px;
+    width: 300px; /* Adjust size if necessary */
+    height: auto;
+}
+
+.yeyeye h5, .yeyeye p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.yeyeye h5 {
+
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+   
+}
+
+.yeyeye p {
+    padding-bottom: 240px;
+    font-size: 12px;
+    margin-left: 20px;
+    text-align: justify;
+    max-width: 450px; /* Adjust width as needed */
+}
+
+
