@@ -146,12 +146,14 @@ span{
     transform: translateY(40px);
     display: flex;
     align-items: center;
-    width: 300px; 
+    width: 250px; 
     height: auto;
     border: 5px solid rgb(255, 98, 62); 
     position: relative;
     box-sizing: border-box; 
 }
+
+
 
 .yeyeye h5, .yeyeye p {
     font-family: 'Arial', Helvetica, sans-serif;
@@ -173,10 +175,10 @@ span{
 .yeyeye p {
 
     padding-bottom: 50px;
-    font-size: 12px;
+    font-size: 14px;
     margin-left: 20px;
     text-align: justify;
-    max-width: 500px; 
+    max-width: 550px; 
 }
 
 .info-container {
@@ -221,6 +223,26 @@ span{
     color: white;
     font-family: 'Arial', Helvetica, sans-serif;
     max-width: 350px;
+}
+
+.j{
+    transform: translateX(-110px);
+}
+
+.jj{
+    transform: translateX(70px);
+}
+
+.jjj{
+    transform: translateX(-110px) translateY(30px);
+}
+
+.jjjj{
+    transform: translateX(70px) translateY(30px);
+}
+
+.info-itemm{
+    transform: translateY(30px);
 }
 
 .facebook-logo{
@@ -304,7 +326,8 @@ span{
     align-items: center;
     margin-left: 155px;
     margin-right: 80px;
-    transform: translateX(-10px);
+    transform: translateX(10px) translateY(20px);
+
 }
 
 .skills{
