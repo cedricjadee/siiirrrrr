@@ -135,10 +135,11 @@ span{
 .yeye {
     display: flex;
     align-items: center; 
-    padding-left: 300px; 
-    padding-right: 30px;
     gap: 20px; 
     transform: translateY(-30px);
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto; 
 }
 
 .yeye img {
@@ -448,11 +449,18 @@ span{
     transform: translateX(-23px);
 }
 
-.free h2{
-    transform: translateY(50px);
+.free {
+    position: relative; 
+}
+
+.free h2 {
+    position: absolute;
+    bottom: -150px; 
+    left: 50%; 
+    transform: translateX(-50%); 
     font-size: 50px;
     color: white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .portfolio{
@@ -489,24 +497,39 @@ span{
     margin-right: 30px;
 }
 
-.fpic img{
-    transform: translateX(270px) translateY(20px); 
-    margin-left: 50px;
-    margin-right: 50px;
-    width: 150px;
-    align-items: right;
-    border: 8px solid rgba(67, 57, 57, 0.293);
-    box-sizing: content-box;
+.fivepic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(20px);
 }
 
-.spic img{
-    transform: translateX(390px) translateY(30px); 
-    margin-left: 50px;
-    margin-right: 50px;
-    width: 150px;
-    align-items: right;
+.top-row, .bottom-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; 
+}
+
+.top-row > div, .bottom-row > div {
+    margin: 0 10px; 
+}
+
+.top-row img, .bottom-row img {
+    width: 200px; 
+    height: auto; 
     border: 8px solid rgba(67, 57, 57, 0.293);
-    box-sizing: content-box;
+}
+
+.fpic img{
+    width: 197px; 
+}
+
+.tpic img{
+    width: 197px; 
+}
+
+.fipic img{
+    width: 195px;
 }
 
 .services{
